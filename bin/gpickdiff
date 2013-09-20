@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git rev-list "$1"..."$2" --first-parent | while read -r line; do git cherry-pick -e "adding $line" $line; done
+#git rev-list "$1"..."$2" --first-parent

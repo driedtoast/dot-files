@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Make default directories 
+mkdir -p ~/bin
+mkdir -p ~/sdks
+mkdir -p ~/servers
+mkdir -p ~/workspaces
+mkdir -p ~/opensource
+
+# copy over info
+cp ./bin/* ~/bin
+cat ./.bash_profile > ~/.bash_profile
+
