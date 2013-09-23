@@ -4,6 +4,11 @@ dot-files
 General files for setting up a local dev environment
 
 
+## Install manually / generate ##
+* ssh keys for github and add to github
+* 
+
+
 ## TODO ##
 * Setup application list + brew install
 * Install RVM environment
@@ -14,6 +19,10 @@ General files for setting up a local dev environment
 * Gradle, etc…
 
 
+* Add project creation scripts in bin:
+** Create project with type "java, ruby, etc…"
+** Copies a template file over + sets up directories, git init, add files to repo, etc… based on language like template
+
 * Break apps into language / dev environments:
 ** base - postgres admin, postgres, fraise, adium, chrome, firefox, xcode, brew
 ** dev ops - virtual box, vagrant, pow.cx
@@ -23,5 +32,18 @@ General files for setting up a local dev environment
 ** go - golang
 ** mobile - android-studio, tizen-sdk, android sdk, cocoapods
 
-* Use a package / recipe thing such as ansible, chef or puppet or 
-* Convert the setup of a machine to https://github.com/boxen/our-boxen/blob/master/docs/modules.md
+* Capture all projects working on / interested via a script (ie. git remote -v parse and put in a shell script to clone projects)
+
+
+* Use a boostrapping model, ideas:
+** https://mug.im/blog/2012/10/01/how-to-setup-your-mac-automatically-with-chef/
+** http://woss.name/2011/01/23/converging-your-home-directory-with-chef/
+** https://github.com/pivotal-sprout/sprout-wrap
+*** https://github.com/pivotal-sprout/sprout
+*** https://github.com/mkocher/soloist
+*** https://github.com/thenoseman/mac-install-chef-solo
+*** https://github.com/opscode-cookbooks/homebrew
+*** https://github.com/applicationsonline/librarian-chef
+** https://github.com/thenoseman/mac-install-chef-solo
+** Use a package / recipe thing such as ansible, chef or puppet or 
+** Convert the setup of a machine to https://github.com/boxen/our-boxen/blob/master/docs/modules.md
