@@ -29,6 +29,7 @@ General files for setting up a local dev environment
 ** java - torquebox, jboss, eclipse, elastic-search, gradle, maven2
 ** ruby - rvm, sublime-text, ruby 1.9.2+, ruby 2.0+
 ** node - npm, node, coffeescript
+*** git clone https://github.com/gameclosure/devkit
 ** go - golang
 ** mobile - android-studio, tizen-sdk, android sdk, cocoapods
 
@@ -47,3 +48,5 @@ General files for setting up a local dev environment
 ** https://github.com/thenoseman/mac-install-chef-solo
 ** Use a package / recipe thing such as ansible, chef or puppet or 
 ** Convert the setup of a machine to https://github.com/boxen/our-boxen/blob/master/docs/modules.md
+
+
